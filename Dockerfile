@@ -1,5 +1,5 @@
 ########################################
-FROM golang:1.13.1-alpine AS build
+FROM golang:1.13.6-alpine AS build
 
 RUN apk --no-cache add git
 
